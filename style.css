@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: block  ;
+
+}
+
+.panels {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.panel{
+    display: flex;  
+    justify-content: center;
+    align-items:center;
+    color: white;
+    flex: 1;
+    
+}
+
+.panel1{
+    background-image: url("im/barcaaa\ y\ tuuu😼.jpeg");
+    
+}
+
+.panel2{
+    background-image: url("im/MoonBed\ -\ Apps\ on\ Galaxy\ Store.png");
+    object-fit: cover;
+}
+
+.panel3{
+    background-image: url("im/download.jpeg");
+    object-fit: cover;
+}
+
+.panel4{
+    background-image: url("im/¿como\ ser\ aesthetic_.jpeg");
+    object-fit: cover;
+}
